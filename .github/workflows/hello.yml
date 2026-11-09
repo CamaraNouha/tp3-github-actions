@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Afficher un message
-      run: echo "Hello from GitHub Actions"
+        run: echo "Hello from GitHub Actions"
