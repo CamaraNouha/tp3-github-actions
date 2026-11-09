@@ -14,3 +14,8 @@ jobs:
         run: pwd
       - name: La liste des fichiers presents dans ce repertoire
         run: ls
+      - name: Informations Git
+        run: |
+          echo "Branche : $GITHUB_REF_NAME"
+          echo "Commit : $GITHUB_SHA"
+          echo "Evenment : $GITHUB_EVENT_NAME"
