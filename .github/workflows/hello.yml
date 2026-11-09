@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Afficher un message
         run: echo "Hello from GitHub Actions"
+      - name: Afficher la version Python
+        run: python --version
+      - name: repertoire courant
+        run: pwd
+      - name: La liste des fichiers presents dans ce repertoire
+        run: ls
