@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Afficher un message
-        run: echo "Hello from GitHub Actions"
+        run: echo "Hello from GitHub Actions CI/CD"
       - name: Afficher la version Python
         run: python --version
       - name: repertoire courant
