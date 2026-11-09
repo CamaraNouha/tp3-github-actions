@@ -39,4 +39,4 @@ jobs:
             --cov=app \
             --cov-report=term-missing \
             --cov-report=xml:reports/coverage.xml \
-            --cov-fail-under=70
+            --cov-fail-under=90
